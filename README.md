@@ -10,11 +10,11 @@ MenoyGone --url <csFCS> --speed <默认为100>
 
 在默认速度下，网络带宽占用 2.4Mbps 内存占用 16MB左右
 
-![image-20220614212530636](demoimg\image-20220614212530636.png)
+![image-20220614212530636](demoimg/image-20220614212530636.png)
 
 
 
 ## 效果图
 
-![image-20220614212738481](demoimg\image-20220614212738481.png)
+![image-20220614212738481](demoimg/image-20220614212738481.png)
 
