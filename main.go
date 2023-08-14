@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/niudaii/util"
 	"net/http"
 	"sync"
 	"time"
@@ -38,8 +39,10 @@ func MoneyGone(C2FApi *string , CoroutineControl *int){
 		wg.Add(1)
 		go func() {
 			defer wg.Done()
-			_,_ = client.Get(*C2FApi)
+			randURL := *C2FApi+"/"+ util.RandomString(10)
+			_,_ = client.Get(randURL)
 			time.Sleep(100*time.Millisecond)
+			fmt.Println(time.Now()," [*] GET ",randURL)
 			<-ch
 		}()
 	}
