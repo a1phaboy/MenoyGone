@@ -15,6 +15,6 @@ MenoyGone --url <csFCS> --speed <默认为100>
 
 
 ## 效果图
-
+![img.png](demoimg/img.png)
 ![image-20220614212738481](demoimg/image-20220614212738481.png)
 
